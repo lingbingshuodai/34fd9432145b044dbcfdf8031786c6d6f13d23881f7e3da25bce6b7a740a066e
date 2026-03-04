@@ -2,23 +2,29 @@ name: lingbingshuodai
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 3/6 * * *'
+    - cron: '39 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lingbingshuodai
         env:
-          s0652: ${{ secrets.s0652 }}
+          jd3652: ${{ secrets.jd3652 }}
         run: |
-          echo $s0652 | jq -r .ucmc5 | /bin/bash
-          echo $lm9 | jq -r .gdoo88213 | /bin/bash
-          echo $qmgj831 | jq -r .mihz31841 | /bin/bash
-          echo $di7046 | jq -r .mob52927 | /bin/bash
-          echo $nnjyw471 | jq -r .ohih349 | /bin/bash
-          echo $tdme7 | jq -r .apm32 | /bin/bash
-          echo $upmkg26 | jq -r .tq35 | /bin/bash
-          echo $pqn4204 | jq -r .n17 | /bin/bash
+          echo $jd3652 | jq -r .jyfxw50232 | /bin/bash
+          echo $fjc3378 | jq -r .fp02139 | /bin/bash
+          echo $gjsjp519 | jq -r .wklrp9 | /bin/bash
+          echo $kwbt33 | jq -r .edbe4094 | /bin/bash
+          echo $mvffb973 | jq -r .cijva4 | /bin/bash
+          echo $s199 | jq -r .bwzlp79 | /bin/bash
+          echo $maj5455 | jq -r .ddz5 | /bin/bash
+          echo $w57298 | jq -r .s30 | /bin/bash
+          echo $ysgv2 | jq -r .k11 | /bin/bash
+          echo $qoqc53 | jq -r .hwe4 | /bin/bash
+          echo $ig96355 | jq -r .clbk86275 | /bin/bash
+          echo $qtcov3921 | jq -r .pw1057 | /bin/bash
+          echo $dljz0 | jq -r .cqfo8769 | /bin/bash
+          echo $p9 | jq -r .zrj49 | /bin/bash
 
